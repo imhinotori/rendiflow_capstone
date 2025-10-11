@@ -1,0 +1,61 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="Página-1" id="jPYlWzDGY6FKI5Ny-oM2">
+    <mxGraphModel dx="1025" dy="417" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-3" value="App Rendiflow" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="40" y="80" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-4" value="Backend" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="150" y="160" width="420" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-5" value="Auth Module" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-6" value="Report Module" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="305" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-7" value="OCR Adapter" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="440" y="220" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-8" value="User Management" style="html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-10" value="OCR Service (externo)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="730" y="220" width="220" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-11" value="SuperTokens Cloud (Auth)" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="100" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-12" value="PostgreSQL DB" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="720" y="380" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=-0.013;entryY=0.607;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gzlt_Nva8JO5N4y9mm3A-3" target="gzlt_Nva8JO5N4y9mm3A-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="140" as="sourcePoint" />
+            <mxPoint x="290" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=210;exitDy=10;exitPerimeter=0;" edge="1" parent="1" source="gzlt_Nva8JO5N4y9mm3A-4" target="gzlt_Nva8JO5N4y9mm3A-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="480" as="sourcePoint" />
+            <mxPoint x="420" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=100;exitDy=0;exitPerimeter=0;entryX=0.07;entryY=0.4;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gzlt_Nva8JO5N4y9mm3A-4" target="gzlt_Nva8JO5N4y9mm3A-10">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="320" as="sourcePoint" />
+            <mxPoint x="550" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzlt_Nva8JO5N4y9mm3A-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.022;exitY=0.02;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gzlt_Nva8JO5N4y9mm3A-4" target="gzlt_Nva8JO5N4y9mm3A-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="170" as="sourcePoint" />
+            <mxPoint x="660" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
